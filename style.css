@@ -28,6 +28,10 @@ body{
 	background-color: rgb(240, 240, 240);
 }
 
+h1 {
+	font-size: 28px;
+}
+
 h2:hover{
 	color:rgb(0, 49, 139);
 }
@@ -46,7 +50,6 @@ h2:hover{
 
 .column {
 	float: left;
-	padding: 10px;
 }
 
 .row:after {
@@ -58,34 +61,13 @@ h2:hover{
 .box {
 	border: none;
 	padding: 5px;
-	width: 45%;
+	width: 40%;
 	height: 650px;
 	overflow: scroll;
 	}
 
 #buttons{
 	text-align: center;
-}
-button{
-	display: inline-block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 10vw;
-	font-family: 'MetamoreBit';
-	font-variation-settings: 'wdth' var(--wdth);
-	--wdth: 450;
-	font-size: 1vw;
-	color: silver;
-	background: darkgreen;
-	border-radius: 16px;
-	outline: none;
-	border: 6px solid silver;
-	padding: 1em;
-}
-button:hover{
-	color: darkgreen;
-	background: silver;
-	border: 6px solid darkgreen;
 }
 
 hr {
