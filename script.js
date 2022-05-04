@@ -4,7 +4,13 @@ $(document).ready(function(){
     .done(function(data) {
       console.log(data);
       let CID = data[0].CNID;
+      let TIME = data[0].Time;
+      let CContent = data[0].CNContent;
 
-      $('.CNID').text(CID);
+      for(let i=0; i<data.length; i++){
+        $('.CNID').append(CID);
+        $('.Time').append(TIME);
+        $('.content').append(CNContent);
+      }
     });
 });
