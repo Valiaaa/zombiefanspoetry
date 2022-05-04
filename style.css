@@ -1,17 +1,6 @@
 *{
 	margin: 0;
-	padding: 0;
 	box-sizing: border-box;
-	cursor: url('hand.png') 10 10,auto;
-}
-
-@font-face {
-  font-family: 'Bebon';
-  src: url('BebonVF.woff') format('woff-variations');
-}
-@font-face {
-	font-family: 'MetamoreBit';
-	src: url('MetamorBit_SerifVF.ttf');
 }
 
 body::-webkit-scrollbar {
@@ -43,42 +32,6 @@ body{
 	background-color: darkgreen;
 }
 
-/* dragable element style*/
-/*use class instead of id because there will be multiple*/
-
-#mahjong {
-	display:inline;
-}
-
-.block{
-	position: absolute;
-	border-radius: 8px;
-	text-align: center;
-	padding: 10px;
-	font-family: 'Bebon';
-	font-variation-settings: 'wdth' var(--wdth);
-	line-height: 100%;
-	font-size: 5vw;
-	font-weight: normal;
-	text-transform: uppercase;
-	--wdth: 100;
-	background-color: darkgreen;
-	cursor: url('point.png') 10 10,auto;
-	color:white;
-	border: 2px solid white;
-	box-shadow: 5px 5px white;
-	text-shadow: 0px 0px 20px rgb(255, 255, 255,0.3);
-}
-
-/* button style*/
-.pic {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 48vw;
-	user-select: none;
-}
-
 #buttons{
 	text-align: center;
 }
@@ -104,23 +57,6 @@ button:hover{
 	background: silver;
 	border: 6px solid darkgreen;
 }
-
-#moreblocks {
-	display: flex;
-	margin-top: -26.5vw;
-}
-
-#explore {
-	display: block;
-	margin-top: 24vw;
-}
-
-#back {
-	display: block;
-}
-
-
-
 
 h1 {
 	font-family: Bebon;
