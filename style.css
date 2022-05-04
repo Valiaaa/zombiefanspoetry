@@ -29,11 +29,12 @@ body{
 }
 
 h1 {
+	display: inline-block;
 	font-size: 28px;
 }
 
-h2:hover{
-	color:rgb(0, 49, 139);
+h2{
+	font-size: 20px;
 }
 
 .left{
