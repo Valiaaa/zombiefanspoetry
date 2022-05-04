@@ -52,102 +52,10 @@ button{
 	padding: 1em;
 }
 button:hover{
-	cursor: url('point.png') 10 10,auto;
 	color: darkgreen;
 	background: silver;
 	border: 6px solid darkgreen;
 }
-
-h1 {
-	font-family: Bebon;
-	font-variation-settings: 'wdth' var(--wdth);
-	font-size: 10vw;
-	font-weight: normal;
-	text-transform: uppercase;
-	--wdth: 100;
-}
-
-h2{
-	display: block;
-	text-align: center;
-	font-family: 'MetamoreBit';
-	font-variation-settings: 'wdth' var(--wdth);
-	--wdth: 450;
-	font-size: 1vw;
-	color: silver;
-}
-
-h3 {
-	font-family: Bebon;
-	font-variation-settings: 'wdth' var(--wdth);
-	line-height: 115%;
-	font-weight: normal;
-	text-transform: uppercase;
-	position: relative;
-	text-align: center;
-	padding: 30px 20px;
-	animation-duration: 7s;
-	animation-name: change;
-	animation-iteration-count: infinite;
-}
-
-h4 {
-	font-family: Bebon;
-	font-variation-settings: 'wdth' var(--wdth);
-	line-height: 115%;
-	font-size: 6vw;
-	font-weight: normal;
-	text-transform: uppercase;
-	display: inline;
-	text-align: center;
-	animation-duration: 7s;
-	animation-name: change;
-	animation-iteration-count: infinite;
-}
-
-@keyframes change {
-  30% {
-	font-variation-settings: 'wdth' var(--wdth);
-    --wdth: 100;
-  }
-
-  45% {
-	font-variation-settings: 'wdth' var(--wdth);
-    --wdth: 200;
-  }
-
-  80% {
-	font-variation-settings: 'wdth' var(--wdth);
-    --wdth: 200;
-  }
-
-  95% {
-	font-variation-settings: 'wdth' var(--wdth);
-    --wdth: 100;
-  }
-}
-
-#alphabet {
-	text-align: center;
-}
-
-.letter {
-	transition: font-variation-settings .3s ease-in, color .3s ease-in;
-	display: inline;
-	line-height: 100%;
-	margin-left: 0em;
-	margin-right: 0em;
-	text-align: center;
-	cursor: url('point.png') 10 10,auto;
-}
-
-.letter:hover {
-	--wdth: 200;
-	color:white;
-	text-shadow: 0px 0px 20px rgb(255, 255, 255,0.2);
-	transition: font-variation-settings .3s ease-in,
-	background-color .3s ease-in, color .3s ease-in;
-	}
 
 hr {
 	width:94vw;
