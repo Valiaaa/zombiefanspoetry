@@ -41,10 +41,15 @@ h2{
 
 .content {
 	text-align: center;
+	height:90vh;
+	margin: 0;
+	transform: translate(0%, 50%);
 }
 
 .right{
 	width: 60%;
+	margin-left: 40%;
+	position: fixed;
 }
 
 .row:after {
@@ -53,9 +58,13 @@ h2{
 	clear: both;
 }
 
+.column {
+	float: left;
+}
+
 .box {
 	border: none;
-	height: 95vh;
+	height: 90vh;
 	overflow: scroll;
 	}
 
