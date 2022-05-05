@@ -39,6 +39,7 @@ h2{
 
 .column {
 	float: left;
+	display: block;
 }
 
 .row:after {
