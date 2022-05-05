@@ -24,11 +24,11 @@ h2{
 	margin-block-start: 0rem;
 }
 
-.left{
+.CNID{
 	width: 30%;
 }
 
-.middle{
+.Time{
 	width: 10%;
 	margin-left:31%;
 }
@@ -55,8 +55,8 @@ h2{
 	overflow: scroll;
 	}
 
-.CNID .Time .Content {
-	display: block;
+.CNinfo {
+	width:40%;
 }
 
 li {
