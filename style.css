@@ -41,15 +41,17 @@ h2{
 
 .content {
 	text-align: center;
-	height:90vh;
 	margin: 0;
-	transform: translate(0%, 50%);
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
 }
 
 .right{
-	width: 60%;
-	margin-left: 40%;
-	position: fixed;
+	width: 64%;
+	position: relative;
+	height:94vh;
 }
 
 .row:after {
