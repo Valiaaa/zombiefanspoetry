@@ -37,11 +37,6 @@ h2{
 	width: 65%;
 }
 
-.column {
-	float: left;
-	display: block;
-}
-
 .row:after {
 	content: "";
 	display: table;
