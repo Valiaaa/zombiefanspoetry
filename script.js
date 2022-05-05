@@ -9,7 +9,6 @@ $(document).ready(function(){
         let TIME = data[i].Time;
         let CContent = data[i].CNContent;
         $('.CNinfo').append("<div class='lines'>" + "<div class='CNID'>" + CID + '</div>' + "<div class='Time'>" + TIME + '</div></div>');
-        $('.content').append(CContent);
       }
     });
 });
