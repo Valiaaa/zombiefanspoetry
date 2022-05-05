@@ -30,6 +30,7 @@ h2{
 
 .middle{
 	width: 15%;
+	margin-left:26%;
 }
 
 .right{
@@ -53,12 +54,12 @@ h2{
 	overflow: scroll;
 	}
 
-#buttons{
-	text-align: center;
+.CNID .Time .Content {
+	display: block;
 }
 
-.CNID .Time .Content {
-	display:block;
+li {
+	display: block;
 }
 
   
