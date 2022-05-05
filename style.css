@@ -8,7 +8,6 @@ body{
 	font-family: 'Arial';
 	font-weight: 100;
 	font-style: normal;
-	font-size: 3vw;
 	line-height: 1.5;
 	margin-bottom: 4rem;
 	color: rgb(30, 30, 30);
@@ -21,7 +20,7 @@ h1 {
 }
 
 h2{
-	font-size: 2vw;
+	font-size: 20px;
 	margin-block-start: 0rem;
 }
 
