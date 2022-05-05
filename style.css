@@ -6,10 +6,6 @@
 	box-sizing: border-box;
 }
 
-:hover {
-	cursor: pointer;
-}
-
 body{
 	font-family: 'Noto Sans SC', sans-serif;
 	font-weight: 300;
@@ -27,7 +23,7 @@ h1 {
 
 h1:hover {
 	color:blue;
-	cursor: pointer !important;
+	cursor: pointer;
 }
 
 h2{
@@ -83,6 +79,7 @@ h2{
 
 .lines:hover {
 	color:blue;
+	cursor: pointer;
 }
 
   
