@@ -29,12 +29,12 @@ h2{
 }
 
 .Time{
-	width: 30%;
-	margin-left:70%;
+	width: 40%;
+	margin-left:60%;
 }
 
 .right{
-	width: 65%;
+	width: 58%;
 }
 
 .row:after {
@@ -51,6 +51,7 @@ h2{
 
 .CNinfo {
 	width:35%;
+	display:inline-block;
 }
 
 .lines:hover {
