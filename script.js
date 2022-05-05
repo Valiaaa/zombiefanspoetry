@@ -8,7 +8,7 @@ $(document).ready(function(){
         let CID = data[i].CNID;
         let TIME = data[i].Time;
         let CContent = data[i].CNContent;
-        $('.CNID').append(CID + '<br>');
+        $('.CNID').append('<li>' + CID + '</li>');
         $('.Time').append(TIME);
         $('.content').append(CContent);
       }
