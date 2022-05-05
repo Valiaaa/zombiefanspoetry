@@ -24,10 +24,6 @@ h2{
 	margin-block-start: 0rem;
 }
 
-.CNinfo {
-	width:35%;
-}
-
 .CNID{
 	width: 68%;
 	display:inline-block;
@@ -65,6 +61,7 @@ h2{
 .box {
 	border: none;
 	height: 90vh;
+	width:35%;
 	overflow: scroll;
 	}
 
