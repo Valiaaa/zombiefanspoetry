@@ -25,11 +25,11 @@ h2{
 }
 
 .CNID{
-	width: 30%;
+	width: 30vw;
 }
 
 .Time{
-	width: 10%;
+	width: 10vw;
 	margin-left:31%;
 }
 
@@ -59,8 +59,8 @@ h2{
 	width:40%;
 }
 
-li {
-	display: block;
+.lines:hover {
+	color:blue;
 }
 
   
