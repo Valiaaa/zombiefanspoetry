@@ -28,6 +28,7 @@ h1:hover {
 h2{
 	font-size: 20px;
 	margin-block-start: 0rem;
+	line-height: 30px;
 }
 
 .CNID{
@@ -38,7 +39,7 @@ h2{
 .Time{
 	width: 40%;
 	margin-left:60%;
-	margin-top: -30px;
+	margin-top: -31px;
 }
 
 .content {
@@ -54,6 +55,7 @@ h2{
 	width: 64%;
 	position: relative;
 	height:94vh;
+	margin-top: -40px;
 }
 
 .row:after {
