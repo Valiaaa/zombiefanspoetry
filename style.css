@@ -24,6 +24,10 @@ h2{
 	margin-block-start: 0rem;
 }
 
+.CNinfo {
+	width:35%;
+}
+
 .CNID{
 	width: 68%;
 	display:inline-block;
@@ -36,8 +40,12 @@ h2{
 	margin-top: -30px;
 }
 
+.content {
+	text-align: center;
+}
+
 .right{
-	width: 58%;
+	width: 60%;
 }
 
 .row:after {
@@ -51,10 +59,6 @@ h2{
 	height: 95vh;
 	overflow: scroll;
 	}
-
-.CNinfo {
-	width:35%;
-}
 
 .lines:hover {
 	color:blue;
