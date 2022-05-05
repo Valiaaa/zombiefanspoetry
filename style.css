@@ -26,11 +26,13 @@ h2{
 
 .CNID{
 	width: 68%;
+	display:inline-block;
 }
 
 .Time{
 	width: 40%;
 	margin-left:60%;
+	display:inline-block;
 }
 
 .right{
@@ -51,7 +53,6 @@ h2{
 
 .CNinfo {
 	width:35%;
-	display:inline-block;
 }
 
 .lines:hover {
