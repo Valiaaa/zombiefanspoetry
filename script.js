@@ -19,7 +19,7 @@ $(document).ready(function(){
         });
 
 
-        $('.ENinfo').append("<div class='lines' id=" + i + '>' + "<div class='CNID'>" + EID + '</div>' + "<div class='Time'>" + ETIME + '</div></div>');
+        $('.ENinfo').append("<div class='lines' id=" + i + '>' + "<div class='CNID'>" + EID + '</div>' + "<div class='ENTime'>" + ETIME + '</div></div>');
 
         $('#' + i).click(function() {
           $('.ENcontent').html("<div class= 'content'>" + EContent + "</div>")
