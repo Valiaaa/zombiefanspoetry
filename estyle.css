@@ -18,6 +18,8 @@ body{
 }
 
 h1 {
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 300;
 	display: inline-block;
 	font-size: 28px;
 }
@@ -28,6 +30,8 @@ h1:hover {
 }
 
 h2{
+	font-family: 'Noto Sans SC', sans-serif;
+	font-weight: 300;
 	font-size: 18px;
 	margin-block-start: 0rem;
 	line-height: 28px;
@@ -79,7 +83,7 @@ h2{
 
 .box {
 	border: none;
-	height: 94vh;
+	height: 95vh;
 	width:35%;
 	overflow: scroll;
 	}
@@ -106,17 +110,20 @@ h2{
 
 
 
-  @media screen and (max-width: 1380px) and (min-width: 1200px) {
+@media screen and (max-width: 1380px) and (min-width: 1200px) {
 	h1 {
 		font-size: 24px;
 	}
 	h2 {
-		font-size:14px;
+		font-size: 14px;
 		line-height: 24px;
+	}
+	.ENTime{
+		margin-top: -26px;
 	}
 }
 
-@media screen and (max-width: 1200px) and (min-width: 1000px) {
+@media screen and (max-width: 1200px) and (min-width: 1030px) {
 	h1 {
 		font-size: 20px;
 	}
@@ -126,41 +133,6 @@ h2{
 	}
 }
 
-@media screen and (max-width: 800px) {
-	.specimen-container {
-		display: block;
-		text-align: center;
-	}
-	h3 {
-        animation: none;
-    }
-	.left, .right {
-		width: 100%;
-	  }
-	  
-	  .left, .left-flow {
-		border-right: none;
-	  }
-	  
-	  .left-flow {
-		width: 100%;
-		border-top: 2px solid silver;
-		border-bottom: 2px solid silver;
-	  }
+@media screen and (max-width: 1020px) {
 
-	  .right-flow {
-		width: 100%;
-		border-top: none;
-		border-bottom: 2px solid silver;
-	  }
-	  h2 {
-		  margin-top: 0px !important;
-	  }
-	  button{
-		border: 2px solid silver;
-		border-radius: 7px;
-	}
-	button:hover{
-		border: 2px solid darkgreen;
-	}
 }
