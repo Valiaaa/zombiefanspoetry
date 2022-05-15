@@ -17,6 +17,11 @@ body{
 	cursor: default;
 }
 
+a {
+	color:blue !important;
+	text-decoration: underline;
+}
+
 h1 {
 	font-family: 'Noto Sans SC', sans-serif;
 	font-weight: 300;
