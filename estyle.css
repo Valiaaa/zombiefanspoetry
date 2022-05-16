@@ -47,9 +47,20 @@ h2{
 	width: 45%;
 }
 
+.title2 {
+	display: none;
+}
+
 .about {
 	display: table-cell;
 	width: 10%;
+}
+
+.language {
+	display: table-cell;
+	width: 45%;
+	text-align:right;
+	margin-right: 5px;
 }
 
 .CNID{
@@ -163,7 +174,7 @@ h2{
 	}
 }
 
-@media screen and (max-width: 1030px) and (min-width: 730px){
+@media screen and (max-width: 1030px) and (min-width: 720px){
 	h1 {
 		font-size: 24px;
 	}
@@ -174,43 +185,109 @@ h2{
 	.box {
 		width:100%;
 		}
+
+	.right{
+		width: 80%;
+		margin-left: 10%;
+		position: relative;
+		height:90vh;
+		background-color: rgb(250, 250, 250);
+	}
+	.x{
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+	}
+	.back{
+		width: 100%;
+		text-align: left;
+		position: absolute;
+		transform: translate(12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+	}
+	.forward{
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+	}
 }
 
-@media screen and (max-width: 730px){
+@media screen and (max-width: 720px){
 	h1 {
 		font-size: 20px;
+		line-height: 28px;
 	}
 	h2 {
 		font-size:14px;
 		line-height: 24px;
 	}
+	.title {
+		display: none;
+	}
+	.title2 {
+		display: block;
+		width: 40%;
+	}
+	
+	.about {
+		display: block;
+		text-align:right;
+		margin-left: 40%;
+		margin-top: -70px;
+		width: 60%;
+	}
+	
+	.language {
+		display: block;
+		text-align:right;
+		margin-left: 40%;
+		margin-top: -18px;
+		width: 60%;
+	}
 	.box {
 		width:100%;
-		position: fixed;
+		position: relative;
+		height: 93vh;
 	}
 	.right{
 		width: 80%;
 		margin-left: 10%;
-		position: fixed;
+		position: relative;
 		height:90vh;
 		background-color: rgb(250, 250, 250);
 	}
 	.x{
-		display: flex;
-		margin-left: 92%;
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
 		cursor: pointer;
 	}
 	.back{
-		display: flex;
-		margin-top: 85vh;
-		margin-left: -96%;
+		width: 100%;
+		text-align: left;
+		position: absolute;
+		transform: translate(12px,0);
 		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
 	}
 	.forward{
-		display: flex;
-		margin-top: 85vh;
-		margin-left: 82%;
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
 		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
 	}
 		
 }

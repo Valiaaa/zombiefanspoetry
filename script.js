@@ -27,8 +27,19 @@ $(document).ready(function(){
         $('#' + i).click(function() {
           $('.ENcontent').html("<div class= 'content'>" + EContent + "</div>");
           $(".right").css({
-            "display": "flex"
+            "display": "flex",
+            "margin-top": "-94vh"
           });	
+          $(".x").css({
+            "display": "block"
+          });	
+          $(".back").css({
+            "display": "block"
+          });	
+          $(".forward").css({
+            "display": "block"
+          });	
+
 
           $('.back').click(function() {
             $("#" + b).trigger( "click" );
