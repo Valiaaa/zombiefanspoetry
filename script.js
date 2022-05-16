@@ -11,7 +11,9 @@ $(document).ready(function(){
         let EID = data[i].ENID;
         let ETIME = data[i].ENTime;
         let EContent = data[i].ENContent.replaceAll("\n","<br />");
-        let BEContent = data[i--].ENContent.replaceAll("\n","<br />");
+        let b = i-1;
+        let f = i+1;
+
 
         $('.CNinfo').append("<div class='lines' id=" + i + '>' + "<div class='CNID'>" + CID + '</div>' + "<div class='Time'>" + TIME + '</div></div>');
 
@@ -27,18 +29,19 @@ $(document).ready(function(){
           $(".right").css({
             "display": "flex"
           });	
+
+          $('.back').click(function() {
+            $("#" + b).trigger( "click" );
+          });
+
+          $('.forward').click(function() {
+            $("#" + f).trigger( "click" );
+          });
+
         });
 
         $('.x').click(function() {
           $(".right").css({
-            "display": "none"
-          });	
-        });
-        $('.back').click(function() {
-          $(".content").html(BEContent);	
-        });
-        $('.forward').click(function() {
-          $(".content").html({
             "display": "none"
           });	
         });
