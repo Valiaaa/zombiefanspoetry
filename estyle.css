@@ -18,7 +18,7 @@ body{
 }
 
 a {
-	color:blue !important;
+	color:rgb(0, 0, 0) !important;
 	text-decoration: underline;
 }
 
@@ -40,6 +40,16 @@ h2{
 	font-size: 18px;
 	margin-block-start: 0rem;
 	line-height: 28px;
+}
+
+.title {
+	display: table-cell;
+	width: 45%;
+}
+
+.about {
+	display: table-cell;
+	width: 10%;
 }
 
 .CNID{
@@ -138,6 +148,39 @@ h2{
 	}
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1030px) and (min-width: 730px){
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size:18px;
+		line-height: 28px;
+	}
+	.box {
+		width:100%;
+		}
+}
 
+@media screen and (max-width: 730px){
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size:14px;
+		line-height: 24px;
+	}
+	.box {
+		width:100%;
+		position: fixed;
+	}
+	.right{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		position: fixed;
+		height:90vh;
+		margin-top: -10vh;
+		background-color: aliceblue;
+	}
+		
 }
