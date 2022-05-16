@@ -81,18 +81,18 @@ h2{
 }
 
 .content {
+	width: 65%;
 	text-align: center;
 	display: block;
 	margin: 0;
 	position:absolute;
 	top:50%;
-	left:50%;
+	left:65%;
 	transform: translate(-45%,-80%);
 }
 
 .right{
 	width: 64%;
-	position: relative;
 	height:94vh;
 	margin-top: -40px;
 	display: none;
@@ -218,6 +218,12 @@ h2{
 		margin-top: 85vh;
 		margin-bottom: 12px;
 	}
+	.content {
+		width: auto;
+		left:50%;
+		transform: translate(-48.5%,-80%);
+}
+
 }
 
 @media screen and (max-width: 720px){
@@ -254,7 +260,6 @@ h2{
 	}
 	.box {
 		width:100%;
-		position: relative;
 		height: 93vh;
 	}
 	.right{
@@ -288,6 +293,11 @@ h2{
 		cursor: pointer;
 		margin-top: 85vh;
 		margin-bottom: 12px;
+	}
+	.content {
+		width: auto;
+		left:50%;
+		transform: translate(-47%,-80%);
 	}
 		
 }
