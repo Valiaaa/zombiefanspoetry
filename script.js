@@ -11,18 +11,36 @@ $(document).ready(function(){
         let EID = data[i].ENID;
         let ETIME = data[i].ENTime;
         let EContent = data[i].ENContent.replaceAll("\n","<br />");
+        let BEContent = data[i--].ENContent.replaceAll("\n","<br />");
 
         $('.CNinfo').append("<div class='lines' id=" + i + '>' + "<div class='CNID'>" + CID + '</div>' + "<div class='Time'>" + TIME + '</div></div>');
 
         $('#' + i).click(function() {
-          $('.content').html(CContent)
+          $('.content').html(CContent);
         });
 
 
         $('.ENinfo').append("<div class='lines' id=" + i + '>' + "<div class='CNID'>" + EID + '</div>' + "<div class='ENTime'>" + ETIME + '</div></div>');
 
         $('#' + i).click(function() {
-          $('.ENcontent').html("<div class= 'content'>" + EContent + "</div>")
+          $('.ENcontent').html("<div class= 'content'>" + EContent + "</div>");
+          $(".right").css({
+            "display": "flex"
+          });	
+        });
+
+        $('.x').click(function() {
+          $(".right").css({
+            "display": "none"
+          });	
+        });
+        $('.back').click(function() {
+          $(".content").html(BEContent);	
+        });
+        $('.forward').click(function() {
+          $(".content").html({
+            "display": "none"
+          });	
         });
       };
     });

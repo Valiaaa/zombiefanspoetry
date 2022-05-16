@@ -84,6 +84,7 @@ h2{
 	position: relative;
 	height:94vh;
 	margin-top: -40px;
+	display: none;
 }
 
 .row:after {
@@ -123,6 +124,20 @@ h2{
 	background: rgb(0, 0, 188);  
 	}
 
+.x {
+	display: none;
+	font-size: 30px;
+}
+
+.back {
+	display: none;
+	font-size: 30px;
+}
+
+.forward {
+	display: none;
+	font-size: 30px;
+}
 
 
 @media screen and (max-width: 1380px) and (min-width: 1200px) {
@@ -175,12 +190,27 @@ h2{
 	}
 	.right{
 		width: 80%;
-		margin-left: auto;
-		margin-right: auto;
+		margin-left: 10%;
 		position: fixed;
 		height:90vh;
-		margin-top: -10vh;
-		background-color: aliceblue;
+		background-color: rgb(250, 250, 250);
+	}
+	.x{
+		display: flex;
+		margin-left: 92%;
+		cursor: pointer;
+	}
+	.back{
+		display: flex;
+		margin-top: 85vh;
+		margin-left: -96%;
+		cursor: pointer;
+	}
+	.forward{
+		display: flex;
+		margin-top: 85vh;
+		margin-left: 82%;
+		cursor: pointer;
 	}
 		
 }
