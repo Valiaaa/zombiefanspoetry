@@ -17,36 +17,12 @@ $(document).ready(function(){
 
         $('.CNinfo').append("<div class='lines' id=" + i + '>' + "<div class='CNID'>" + CID + '</div>' + "<div class='Time'>" + TIME + '</div></div>');
 
-        $('#' + i).click(function() {
-          $('.content').html(CContent);
-          $(".right").css({
-            "display": "flex",
-            "margin-top": "-94vh"
-          });	
-          $(".x").css({
-            "display": "block"
-          });	
-          $(".back").css({
-            "display": "block"
-          });	
-          $(".forward").css({
-            "display": "block"
-          });	
-
-
-          $('.back').click(function() {
-            $("#" + b).trigger( "click" );
-          });
-
-          $('.forward').click(function() {
-            $("#" + f).trigger( "click" );
-          });
-        });
-
 
         $('.ENinfo').append("<div class='lines' id=" + i + '>' + "<div class='CNID'>" + EID + '</div>' + "<div class='ENTime'>" + ETIME + '</div></div>');
 
+        
         $('#' + i).click(function() {
+          $('.content').html(CContent);
           $('.ENcontent').html("<div class= 'content'>" + EContent + "</div>");
           $(".right").css({
             "display": "flex",
