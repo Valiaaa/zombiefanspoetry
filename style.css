@@ -60,20 +60,21 @@ h2{
 }
 
 .content {
+	width: 65%;
 	text-align: center;
 	display: block;
 	margin: 0;
 	position:absolute;
 	top:50%;
-	left:50%;
+	left:65%;
 	transform: translate(-45%,-80%);
 }
 
 .right{
 	width: 64%;
-	position: relative;
 	height:94vh;
 	margin-top: -40px;
+	display: none;
 }
 
 .row:after {
@@ -113,6 +114,21 @@ h2{
 	background: rgb(0, 0, 188);  
 	}
 
+.x {
+	display: none;
+	font-size: 30px;
+}
+
+.back {
+	display: none;
+	font-size: 30px;
+}
+
+.forward {
+	display: none;
+	font-size: 30px;
+}
+
 
 
 @media screen and (max-width: 1150px) and (min-width: 880px) {
@@ -125,6 +141,133 @@ h2{
 	}
 }
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 880px) and (min-width: 720px){
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size:18px;
+		line-height: 28px;
+	}
+	.box {
+		width:100%;
+		margin-left: -0.6% !important;
+		}
 
+	.right{
+		width: 80%;
+		margin-left: 10%;
+		position: relative;
+		height:90vh;
+		background-color: rgb(250, 250, 250);
+	}
+	.x{
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+	}
+	.back{
+		width: 100%;
+		text-align: left;
+		position: absolute;
+		transform: translate(12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+	}
+	.forward{
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+	}
+	.content {
+		width: auto;
+		left:50%;
+		transform: translate(-48.5%,-80%);
+}
+
+}
+
+@media screen and (max-width: 720px){
+	h1 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	h2 {
+		font-size:14px;
+		line-height: 24px;
+	}
+	.title {
+		display: none;
+	}
+	.title2 {
+		display: block;
+		width: 40%;
+	}
+	
+	.about {
+		display: block;
+		text-align:right;
+		margin-left: 40%;
+		margin-top: -70px;
+		width: 60%;
+	}
+	
+	.language {
+		display: block;
+		text-align:right;
+		margin-left: 40%;
+		margin-top: -18px;
+		width: 60%;
+	}
+	.box {
+		width:100%;
+		height: 95vh;
+		margin-top: -36px !important;
+		margin-left: -0.3% !important;
+	}
+	.right{
+		width: 80%;
+		margin-left: 10%;
+		position: relative;
+		height:90vh;
+		background-color: rgb(250, 250, 250);
+	}
+	.x{
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+	}
+	.back{
+		width: 100%;
+		text-align: left;
+		position: absolute;
+		transform: translate(12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+	}
+	.forward{
+		width: 100%;
+		text-align: right;
+		position: absolute;
+		transform: translate(-12px,0);
+		cursor: pointer;
+		margin-top: 85vh;
+		margin-bottom: 12px;
+	}
+	.content {
+		width: auto;
+		left:50%;
+		transform: translate(-47%,-80%);
+	}
+		
 }

@@ -184,6 +184,7 @@ h2{
 	}
 	.box {
 		width:100%;
+		margin-left: -0.6% !important;
 		}
 
 	.right{
@@ -260,7 +261,9 @@ h2{
 	}
 	.box {
 		width:100%;
-		height: 93vh;
+		height: 92vh;
+		margin-top: -36px !important;
+		margin-left: -0.3% !important;
 	}
 	.right{
 		width: 80%;
