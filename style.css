@@ -169,7 +169,7 @@ h2{
 		cursor: pointer;
 	}
 	.back{
-		width: 100%;
+		width: 50%;
 		text-align: left;
 		position: absolute;
 		transform: translate(12px,0);
@@ -178,13 +178,14 @@ h2{
 		margin-bottom: 12px;
 	}
 	.forward{
-		width: 100%;
+		width: 50%;
 		text-align: right;
 		position: absolute;
 		transform: translate(-12px,0);
 		cursor: pointer;
 		margin-top: 85vh;
 		margin-bottom: 12px;
+		margin-left: 50%;
 	}
 	.content {
 		width: auto;
@@ -247,7 +248,7 @@ h2{
 		cursor: pointer;
 	}
 	.back{
-		width: 100%;
+		width: 50%;
 		text-align: left;
 		position: absolute;
 		transform: translate(12px,0);
@@ -256,13 +257,14 @@ h2{
 		margin-bottom: 12px;
 	}
 	.forward{
-		width: 100%;
+		width: 50%;
 		text-align: right;
 		position: absolute;
 		transform: translate(-12px,0);
 		cursor: pointer;
 		margin-top: 85vh;
 		margin-bottom: 12px;
+		margin-left: 50%;
 	}
 	.content {
 		width: auto;
